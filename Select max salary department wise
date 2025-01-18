@@ -1,0 +1,4 @@
+select name,salary,dept from employees
+where salary IN
+(select Max(salary) as Sal from employees 
+GROUP BY dept);
