@@ -1,0 +1,1 @@
+select COUNT(*) as total_employee from employees;
