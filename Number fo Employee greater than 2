@@ -1,0 +1,3 @@
+select dept,count(*) from employees
+GROUP BY dept 
+HAVING count(*)>2;
